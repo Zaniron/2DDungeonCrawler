@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4648356344618935714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3951931840500690072}
+  - component: {fileID: 5436452932134865178}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3951931840500690072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4648356344618935714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5436452932134865178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4648356344618935714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e774c60a977e14fa727a5583b229e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: a2840f7dc3bd0af42a9d4c86dc0bb0e6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Running
+    clip: {fileID: 8300000, guid: 8e64c518ab74fce4fb8ecbae9cdbf3f0, type: 3}
+    volume: 0.325
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: PlayerAttack
+    clip: {fileID: 8300000, guid: df07347c8bac73a45a2fe864c08bcc38, type: 3}
+    volume: 0.236
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RatRun
+    clip: {fileID: 8300000, guid: 76a92cf82b819a34ca66363a30751bce, type: 3}
+    volume: 0.184
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: GemPickup
+    clip: {fileID: 8300000, guid: 685367f7efd6db64c9ab1c7a7085cfa9, type: 3}
+    volume: 0.469
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: DoorTrigger
+    clip: {fileID: 8300000, guid: 638d66addf58dee4da0e26de5aa4f84d, type: 3}
+    volume: 0.727
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RatDeath
+    clip: {fileID: 8300000, guid: 652adcccd86a7714b960fa3aad0cc1df, type: 3}
+    volume: 0.236
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
